@@ -1,7 +1,7 @@
 .heart {
      position: relative;
      width: 100px;
-     height: 90px;
+     height: 100px;
      background: red;
      transform: rotate(-45deg);
      animation: pulse 1s infinite;
@@ -15,7 +15,7 @@
      height: 100px;
      background: red;
      border-radius: 50%;
-     animation: pulse 1s infinite;
+     /* animation: pulse 1s infinite; */
    }
 
    .heart::before {
