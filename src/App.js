@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+const Heart = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex items-center justify-center h-screen bg-white">
+      <div className="heart"></div>
     </div>
   );
-}
+};
+
+const App = () => {
+  return (
+    <div>
+      <h1 className="text-center text-3xl font-bold text-red-600 mt-4">
+        Máy trợ tim :vv
+      </h1>
+      <Heart />
+    </div>
+  );
+};
 
 export default App;
